@@ -1,0 +1,58 @@
+main{
+    .responsive{
+      display: flex;
+  
+        .responsive-img-card{
+        background-image: url("../../content/bg-showcase-1.jpg");
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        transition: 0.4s;
+        &:hover{
+          scale: 1.05;
+        }
+        }
+  
+        .bootstrap-img-card{
+          background-image: url("../../content/bg-showcase-2.jpg");
+          width: 50%;
+          background-position: center;
+          background-size: cover;
+          transition: 0.4s;
+        &:hover{
+          scale: 1.05;
+        }
+          }
+    
+        .customize-img-card{
+          background-image: url("../../content/bg-showcase-3.jpg");
+          width: 50%;
+          background-position: center;
+          background-size: cover;
+          transition: 0.4s;
+        &:hover{
+          scale: 1.05;
+        }
+          }
+    }
+    .responsive-text-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      width: 50%;
+    
+      .text{
+        padding:25% 15% 25% 15% ;
+        b{
+        font-size: 2em;
+        }
+        p{
+          font-size: 1.5em;
+          margin-top: 20px;
+          line-height: 40px;
+          color: rgb(144, 146, 148);
+        }
+      }
+    }
+  }

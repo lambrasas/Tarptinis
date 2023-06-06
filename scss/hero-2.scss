@@ -1,0 +1,36 @@
+.sea-2{
+    background-image: url("../../content/bg-masthead.jpg");
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            width: 100%;
+
+              input{
+                width: 400px;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                
+            }
+            
+        }
+  
+    b{
+      font-size: 1.5em;
+      color: white;
+      text-align: center;
+    }
+
+  
+  }

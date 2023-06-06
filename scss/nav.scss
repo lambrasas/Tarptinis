@@ -1,0 +1,17 @@
+nav{
+  position: fixed;
+  background: white;
+  width: 100%;
+  
+    p{
+      margin-top: 5px;
+      font-weight: bold;
+    }
+  
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5% 5%;
+    
+  }
+  }

@@ -1,0 +1,69 @@
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    background: rgb(248, 249, 250);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+
+    .saying{
+        font-size: 2em;
+        margin: 5% 0 2% 0;
+    }
+    .profiles{
+        display: flex;
+        justify-content: space-evenly;
+        p{
+            color: #8f9299;
+        }
+    }
+
+    .profile-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 25%;
+        transition: 0.4s;
+
+        &:hover{
+            background: rgb(191, 194, 197);
+            border-radius: 30px;
+            scale: 1.2;
+        }
+
+        b{
+            margin: 2%;
+        }
+        
+        .profile-picture-1{
+            background: url(../../content/testimonials-1.jpg);
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            background-size: contain;
+            border-radius: 50px;
+            box-shadow: 0px 3px 1px rgb(0, 0, 0, 0.2);
+            
+        }
+        .profile-picture-2{
+            background: url(../../content/testimonials-2.jpg);
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            background-size: contain;
+            border-radius: 50px;
+            box-shadow: 0px 3px 1px rgb(0, 0, 0, 0.2);
+        }
+        .profile-picture-3{
+            background: url(../../content/testimonials-3.jpg);
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            background-size: contain;
+            border-radius: 50px;
+            box-shadow: 0px 3px 1px rgb(0, 0, 0, 0.2);
+        }
+    }
+}

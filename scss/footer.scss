@@ -1,0 +1,65 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        a{
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: #007BFF;
+        }
+
+        .select a{
+            margin-right:20px ;
+
+        }
+
+        div:nth-of-type(2){
+
+            p{
+                color: #8f9299;
+            }
+        }
+        .select{
+            display: flex;
+
+            div{
+                display: flex;
+                align-items: center;
+                
+                a{
+                transition: 0.1s;
+                
+                    &:hover{
+                        scale: 1.2;
+                    }    
+                }
+                
+            }
+        }
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        i{
+            padding:0 15px;
+        }
+        a{
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+        
+    }
+
+}
